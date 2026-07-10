@@ -16,6 +16,6 @@ $conn = sqlsrv_connect($serverName, $connectionInfo);
 if ($conn) {
    
 } else {
-    echo "Koneksi Gagal!<br />"; //hsihdiwhid hwudwuhswhq
+    echo "Koneksi Gagal!<br />"; 
     die(print_r(sqlsrv_errors(), true));
 }
