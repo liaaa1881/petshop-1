@@ -17,5 +17,5 @@ if ($conn) {
    
 } else {
     echo "Koneksi Gagal!<br />";
-    die(print_r(sqlsrv_errors(), true));
+    die(print_r(sqlsrv_errors(), true)); //uyiaoiuoiuwiqo
 }
